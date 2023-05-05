@@ -1,10 +1,10 @@
+import { ComicsLogo } from "../../ui/";
 import { HeroList } from "../components";
 
 export const MarvelPage = () => {
   return (
     <>
-      <h1>Marvel Page</h1>
-      <hr />
+      <ComicsLogo source={"/assets/logos/Marvel_Logo.svg"} altText={"Logo de Marvel Comics"}/>
 
       <HeroList publisher={"Marvel Comics"} />
     </>

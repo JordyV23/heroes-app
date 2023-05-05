@@ -1,10 +1,11 @@
 import { HeroList } from "../components";
+import { ComicsLogo } from "../../ui/";
+
 
 export const DCPage = () => {
   return (
     <>
-      <h1>DC Comics</h1>
-      <hr />
+    <ComicsLogo source={'/assets/logos/DC_Comics_logo.svg'} altText={"Logo de DC Comics"}/>
 
       <HeroList publisher={"DC Comics"} />
     </>
